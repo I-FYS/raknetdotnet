@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="_findfirst.cpp" />
+    <ClCompile Include="AsynchronousFileIO.cpp" />
+    <ClCompile Include="BitStream.cpp" />
+    <ClCompile Include="BitStream_NoTemplate.cpp" />
+    <ClCompile Include="CheckSum.cpp" />
+    <ClCompile Include="CommandParserInterface.cpp" />
+    <ClCompile Include="ConsoleServer.cpp" />
+    <ClCompile Include="DataBlockEncryptor.cpp" />
+    <ClCompile Include="DataCompressor.cpp" />
+    <ClCompile Include="DS_ByteQueue.cpp" />
+    <ClCompile Include="DS_Table.cpp" />
+    <ClCompile Include="EncodeClassName.cpp" />
+    <ClCompile Include="ExtendedOverlappedPool.cpp" />
+    <ClCompile Include="FileOperations.cpp" />
+    <ClCompile Include="GetTime.cpp" />
+    <ClCompile Include="InternalPacketPool.cpp" />
+    <ClCompile Include="LinuxStrings.cpp" />
+    <ClCompile Include="NetworkTypes.cpp" />
+    <ClCompile Include="PluginInterface.cpp" />
+    <ClCompile Include="RakClient.cpp" />
+    <ClCompile Include="RakNetStatistics.cpp" />
+    <ClCompile Include="RakNetworkFactory.cpp" />
+    <ClCompile Include="RakPeer.cpp" />
+    <ClCompile Include="rakserver.cpp" />
+    <ClCompile Include="RakSleep.cpp" />
+    <ClCompile Include="Rand.cpp" />
+    <ClCompile Include="ReliabilityLayer.cpp" />
+    <ClCompile Include="rijndael.cpp" />
+    <ClCompile Include="RPCMap.cpp" />
+    <ClCompile Include="SHA1.cpp" />
+    <ClCompile Include="SimpleMutex.cpp" />
+    <ClCompile Include="SocketLayer.cpp" />
+    <ClCompile Include="StringCompressor.cpp" />
+    <ClCompile Include="StringTable.cpp" />
+    <ClCompile Include="SystemAddressList.cpp" />
+    <ClCompile Include="SystemDatabaseClient.cpp" />
+    <ClCompile Include="SystemDatabaseServer.cpp" />
+    <ClCompile Include="TableSerializer.cpp" />
+    <ClCompile Include="SAMP\samp_auth.cpp">
+      <Filter>SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\samp_netencr.cpp">
+      <Filter>SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="SAMP\SAMPRPC.cpp">
+      <Filter>SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="LogCommandParser.cpp" />
+    <ClCompile Include="NetworkIDGenerator.cpp" />
+    <ClCompile Include="RakNetCommandParser.cpp" />
+    <ClCompile Include="TCPInterface.cpp" />
+    <ClCompile Include="TelnetTransport.cpp" />
+    <ClCompile Include="DS_HuffmanEncodingTree.cpp" />
+    <ClCompile Include="RakClientNET.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BitStreamNET.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_findfirst.h" />
+    <ClInclude Include="AsynchronousFileIO.h" />
+    <ClInclude Include="AutopatcherPatchContext.h" />
+    <ClInclude Include="AutopatcherRepositoryInterface.h" />
+    <ClInclude Include="BigTypes.h" />
+    <ClInclude Include="BitStream.h" />
+    <ClInclude Include="BitStream_NoTemplate.h" />
+    <ClInclude Include="CheckSum.h" />
+    <ClInclude Include="ClientContextStruct.h" />
+    <ClInclude Include="CommandParserInterface.h" />
+    <ClInclude Include="ConsoleServer.h" />
+    <ClInclude Include="DataBlockEncryptor.h" />
+    <ClInclude Include="DataCompressor.h" />
+    <ClInclude Include="DS_BPlusTree.h" />
+    <ClInclude Include="DS_ByteQueue.h" />
+    <ClInclude Include="DS_Heap.h" />
+    <ClInclude Include="DS_List.h" />
+    <ClInclude Include="DS_Map.h" />
+    <ClInclude Include="DS_MemoryPool.h" />
+    <ClInclude Include="DS_OrderedChannelHeap.h" />
+    <ClInclude Include="DS_OrderedList.h" />
+    <ClInclude Include="DS_Queue.h" />
+    <ClInclude Include="DS_QueueLinkedList.h" />
+    <ClInclude Include="DS_RangeList.h" />
+    <ClInclude Include="DS_Table.h" />
+    <ClInclude Include="DS_Tree.h" />
+    <ClInclude Include="DS_WeightedGraph.h" />
+    <ClInclude Include="Export.h" />
+    <ClInclude Include="ExtendedOverlappedPool.h" />
+    <ClInclude Include="FileOperations.h" />
+    <ClInclude Include="GetTime.h" />
+    <ClInclude Include="InternalPacket.h" />
+    <ClInclude Include="InternalPacketPool.h" />
+    <ClInclude Include="LinuxStrings.h" />
+    <ClInclude Include="MTUSize.h" />
+    <ClInclude Include="multiplayer.h" />
+    <ClInclude Include="NetworkTypes.h" />
+    <ClInclude Include="PacketEnumerations.h" />
+    <ClInclude Include="PacketPool.h" />
+    <ClInclude Include="PacketPriority.h" />
+    <ClInclude Include="PluginInterface.h" />
+    <ClInclude Include="RakAssert.h" />
+    <ClInclude Include="RakClient.h" />
+    <ClInclude Include="RakClientInterface.h" />
+    <ClInclude Include="RakNetDefines.h" />
+    <ClInclude Include="RakNetStatistics.h" />
+    <ClInclude Include="RakNetworkFactory.h" />
+    <ClInclude Include="rakpeer.h" />
+    <ClInclude Include="rakpeerinterface.h" />
+    <ClInclude Include="RakServer.h" />
+    <ClInclude Include="rakserverinterface.h" />
+    <ClInclude Include="RakSleep.h" />
+    <ClInclude Include="Rand.h" />
+    <ClInclude Include="ReliabilityLayer.h" />
+    <ClInclude Include="Replica.h" />
+    <ClInclude Include="ReplicaEnums.h" />
+    <ClInclude Include="rijndael.h" />
+    <ClInclude Include="rijndael-boxes.h" />
+    <ClInclude Include="RouterInterface.h" />
+    <ClInclude Include="RPCMap.h" />
+    <ClInclude Include="RPCNode.h" />
+    <ClInclude Include="RSACrypt.h" />
+    <ClInclude Include="SHA1.h" />
+    <ClInclude Include="SimpleMutex.h" />
+    <ClInclude Include="SimpleTCPServer.h" />
+    <ClInclude Include="SingleProducerConsumer.h" />
+    <ClInclude Include="SocketLayer.h" />
+    <ClInclude Include="StringCompressor.h" />
+    <ClInclude Include="StringTable.h" />
+    <ClInclude Include="systemaddresslist.h" />
+    <ClInclude Include="SystemDatabaseClient.h" />
+    <ClInclude Include="SystemDatabaseServer.h" />
+    <ClInclude Include="TableSerializer.h" />
+    <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="TransportInterface.h" />
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="SAMP\samp_auth.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\samp_netencr.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\SAMP_VER.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="SAMP\SAMPRPC.h">
+      <Filter>SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="LogCommandParser.h" />
+    <ClInclude Include="NetworkIDGenerator.h" />
+    <ClInclude Include="RakNetCommandParser.h" />
+    <ClInclude Include="TCPInterface.h" />
+    <ClInclude Include="TelnetTransport.h" />
+    <ClInclude Include="DS_BinarySearchTree.h" />
+    <ClInclude Include="DS_HuffmanEncodingTree.h" />
+    <ClInclude Include="DS_HuffmanEncodingTreeFactory.h" />
+    <ClInclude Include="DS_HuffmanEncodingTreeNode.h" />
+    <ClInclude Include="DS_LinkedList.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="RakClientNET.h" />
+    <ClInclude Include="BitStreamNET.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SAMP">
+      <UniqueIdentifier>{fdbc9049-12d5-4b28-91c3-a12b512add8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
